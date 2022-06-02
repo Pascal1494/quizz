@@ -7,3 +7,28 @@
 body {
     background: #fbf0db;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: flex-end;
+    margin: 40px 0;
+    padding: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+    font-family: Open Sans, sans-serif;
+}
+nav a:nth-child(1) {
+    margin-right: auto;
+    font-size: 25px;
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+}
